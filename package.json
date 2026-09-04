@@ -1,0 +1,20 @@
+{
+  "name": "meu-tema",
+  "displayName": "Meu Tema",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meu Tema",
+        "uiTheme": "vs-dark",
+        "path": "./themes/meu-tema-color-theme.json"
+      }
+    ]
+  }
+}
